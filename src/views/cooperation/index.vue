@@ -16,7 +16,7 @@
           <div class="developer">
             <h1>開發者</h1>
             <p>
-              如果您是開發者，可以直接前往此處，根據文檔指引搭建屬於自己的新媒體矩陣，並且邀請身邊的優質創作者入駐；若期望快速冷啟動部署與敏捷開發，您還可以聯繫我們採購相關的技術支持。
+              如果您是開發者，可以直接前往<a href="https://github.com/hokaso/hocassian-media-matrix" target="_blank">此處</a>，根據文檔指引搭建屬於自己的新媒體矩陣，並且邀請身邊的優質創作者入駐；若期望快速冷啟動部署與敏捷開發，您還可以聯繫我們採購相關的技術支持。
             </p>
           </div>
           <div class="space"></div>
@@ -55,7 +55,7 @@ export default {
   display: flex;
   align-items: center;
   .page-affix {
-    margin-right: 100px;
+    margin-right: 200px;
   }
   .main {
     width: 75%;
