@@ -77,7 +77,7 @@ export default {
 
     const getFriendAuth = async () => {
       const { rows } = await fetchFriendAuth();
-      const list = shuffle(rows).slice(0, 15);
+      const list = shuffle(rows).slice(0, 30);
       state.caseData[2].list = shuffle(list).map((item: any, i: number) => {
         return {
           ...item,
