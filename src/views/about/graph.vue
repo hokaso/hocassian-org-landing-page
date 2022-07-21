@@ -12,6 +12,8 @@
         fetchFriendMap
     } from '@/service/api';
 
+    let myChart = undefined
+
     export default {
         name: "graph",
         data() {
@@ -19,7 +21,7 @@
 
                 // 新增or更新，新增为true，更新为false
                 requireFlag: false,
-                myChart: undefined,
+                // myChart: undefined,
                 // 表单参数
                 form: {},
                 formConnect: {},
@@ -72,7 +74,7 @@
                 personWebPlatformTemp: undefined,
                 personWebFieldTemp: undefined,
                 // 路径
-                person_pic_url: "image://" + process.env.VUE_APP_BASE_API + "/profile/video_matrix/",
+                person_pic_url: "image://" + process.env.VUE_APP_SERVICE_URL + process.env.VUE_APP_BASE_API + "/profile/video_matrix/",
                 // 图片预览框
                 picVisible: false,
                 // 拼接
@@ -121,7 +123,7 @@
             await this.getMap();
             // 基于准备好的dom，初始化echarts实例
             let echarts = require('echarts')
-            this.myChart = echarts.init(document.getElementById('main'));
+            myChart = echarts.init(document.getElementById('main'));
             this.myEcharts();
         },
         methods: {
@@ -130,18 +132,20 @@
             },
             myEcharts() {
                 const that = this;
-                this.myChart.showLoading();
+                myChart.showLoading();
 
                 this.graph.nodes.forEach(function (node) {
                     node.label = {
-                        position: 'bottom',
+                      color: '#fff',
+                        // position: 'bottom',
                         show: true
                     };
-                    node.symbol = that.person_pic_url + node.personWebPic
-                    // node.itemStyle = {
-                    //     borderColor: '#bb5b89',
-                    //     borderWidth: 2
-                    // }
+                    // node.symbol = that.person_pic_url + node.personWebPic
+                    node.itemStyle = {
+                        color: '#e39ac5',
+                        borderColor: '#b9849a',
+                        borderWidth: 2
+                    }
                 });
                 const option = {
                     title: {
@@ -252,8 +256,8 @@
                             layout: "force",
                             force: {
                                 repulsion: 500,
-                                edgeLength: 100,
-                                gravity: 0.2
+                                edgeLength: 50,
+                                gravity: 0.4
                             },
                             symbolSize: 50,
                             data: this.graph.nodes,
@@ -283,10 +287,10 @@
                         }
                     ]
                 };
-                this.myChart.clear();
-                option && this.myChart.setOption(option, true);
+                myChart.clear();
+                option && myChart.setOption(option, true);
                 // console.log(option)
-                this.myChart.hideLoading();
+                myChart.hideLoading();
             },
             getList() {
                 this.loading = true;

@@ -3,7 +3,7 @@
     <div class="menu">
       <a class="btn" href="https://video.hocassian.com" target="_blank">同和視頻矩陣</a>
       <a class="btn" href="https://material.hocassian.com" target="_blank">同和素材矩陣</a>
-      <a class="btn" href="https://create.hocassian.com" target="_blank">同和創作矩陣</a>
+      <a class="btn" href="https://create.hocassian.cn" target="_blank">同和創作矩陣</a>
     </div>
     <div class="banner">
       <video
