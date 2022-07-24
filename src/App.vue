@@ -1,7 +1,7 @@
 <template>
   <router-view v-slot="{ Component }">
     <suspense>
-      <component :is="Component" />
+      <component :is="Component"/>
     </suspense>
   </router-view>
   <!-- <router-view /> -->
@@ -9,7 +9,6 @@
 
 <style>
 html body {
-  margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
@@ -17,6 +16,7 @@ html body {
   max-width: 1920px;
   margin: auto;
 }
+
 #app {
   font-family: PingFang TC, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
