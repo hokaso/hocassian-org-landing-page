@@ -8,14 +8,31 @@
     <div class="banner">
       <video
         style="width: 100%"
-        src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/intro.mp4" autoplay muted loop></video>
+        src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/intro.mp4" autoplay :muted="isMuted" loop></video>
       <div class="banner-content">
         <h1>同和新媒體矩陣</h1>
         <p>NMCN·小眾多頻道網絡</p>
       </div>
+      <div class="banner-footer">
+        <div :class="{'voice': true, 'open': !isMuted}"  @click="() => isMuted = !isMuted"></div>
+      </div>
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import { reactive, toRefs } from 'vue';
+export default {
+  setup() {
+    const state = reactive({
+      isMuted: true
+    });
+    return {
+      ...toRefs(state)
+    }
+  },
+}
+</script>
 
 <style lang="less" scoped>
   .root {
@@ -45,6 +62,7 @@
     .banner {
       position: relative;
       width: 100%;
+      height: 100vh;
       .banner-content {
         position: absolute;
         left: 50%;
@@ -76,6 +94,22 @@
         position: absolute;
         left: 0;
         top: 0;
+      }
+      .banner-footer {
+        .voice {
+          position: absolute;
+          left: 70px;
+          bottom: 35px;
+          width: 35px;
+          height: 35px;
+          background: url('./voice.jpeg') no-repeat;
+          background-size: cover;
+          cursor: pointer;
+          z-index: 2;
+        }
+        .open {
+          background-position: 0 -35px;
+        }
       }
     }
   }
