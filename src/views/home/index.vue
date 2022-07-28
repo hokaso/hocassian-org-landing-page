@@ -10,7 +10,7 @@
     <p>
       Copyright@ 2017-{{ new Date().getFullYear() }} 同和新媒體矩陣·版權所有
     </p>
-    <a href="http://beian.miit.gov.cn/">粤ICP备20019636号-1</a>
+    <a href="https://beian.miit.gov.cn/">粤ICP备2022093510号-1</a>
   </div>
 </template>
 
