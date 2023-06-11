@@ -131,14 +131,14 @@ export default {
   padding: 107px;
 }
 .out-container {
-  background-image: url('./outBackground.jpg');
+  background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/out_background.webp');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 100vh;
   max-height: min-content;
   padding: 37px 0;
   .inner-container {
-    background-image: url('./innerBackground.jpg');
+    background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/inner_background.webp');
     background-size: 100% 100%;
     width: 75%;
     margin: 0 auto;

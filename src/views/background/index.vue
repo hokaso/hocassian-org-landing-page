@@ -26,7 +26,7 @@ export default {
   .container {
     // min-height: 1080px;
     height: 100%;
-    background-image: url("./snow.png");
+    background-image: url("https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/snow.webp");
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
@@ -34,6 +34,7 @@ export default {
     align-items: center;
     justify-content: center;
     width: fit-content;
+    //z-index: 3;
 
     .page-affix {
       // max-height: 100vh;
