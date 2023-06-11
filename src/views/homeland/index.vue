@@ -60,11 +60,11 @@
             </a-col>
             <a-col class="img-block">
               <div class="below">
-                <h1 class="datatitle">200+</h1>
+                <h1 class="datatitle">300+</h1>
                 <p class="datacontent">矩陣成員</p>
               </div>
               <div class="above">
-                <h1 class="datatitle linearfont">200+</h1>
+                <h1 class="datatitle linearfont">300+</h1>
               </div>
             </a-col>
             <a-col class="img-block">
@@ -78,11 +78,11 @@
             </a-col>
             <a-col class="img-block">
               <div class="below">
-                <h1 class="datatitle">500萬+</h1>
+                <h1 class="datatitle">800萬+</h1>
                 <p class="datacontent">累計粉絲</p>
               </div>
               <div class="above">
-                <h1 class="datatitle linearfont">500萬+</h1>
+                <h1 class="datatitle linearfont">800萬+</h1>
               </div>
             </a-col>
           </a-row>

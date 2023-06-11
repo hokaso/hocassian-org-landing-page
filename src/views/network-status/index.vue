@@ -9,7 +9,7 @@
         <a-col>
           <div class="first">
             <div class="text">
-              資本主義背後運轉的系統總是縝密而自洽的，我們不能期望從他們設計出的藍圖中突圍，最好的方式只有一個，退出這個遊戲，另起爐灶。
+              作爲KOL新青年，我們不應在大環境下失聲。每個人都擁有自己對生活的定義，不必迎合大衆審美，那麽就退出那些設定好的遊戲，另起爐灶。
             </div>
           </div>
           <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/irregular_2.webp" class="second-img" />
