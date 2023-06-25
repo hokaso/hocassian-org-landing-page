@@ -49,7 +49,7 @@ export default defineComponent({
 <style lang="less" scoped>
 .root {
   display: flex;
-  gap: 32px;
+  gap: 45px;
 }
 .ant-dropdown-link {
   color: #000;
