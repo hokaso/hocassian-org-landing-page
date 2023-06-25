@@ -133,7 +133,7 @@ export default defineComponent({
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15%;
+    gap: 13%;
     width: 80%;
     .page-affix {
       max-width: fit-content;
@@ -144,7 +144,7 @@ export default defineComponent({
     }
     .content {
       display: flex;
-      gap: 24px;
+      gap: 48px;
       .info {
         color: #fff;
         text-align: left;
