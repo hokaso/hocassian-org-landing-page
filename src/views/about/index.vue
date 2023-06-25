@@ -28,7 +28,7 @@
 
 <script lang="ts">
 import graph from './graph.vue';
-import PageAffix from '@/componetns/page-affix/index.vue';
+import PageAffix from '@/components/page-affix/index.vue';
 export default {
   components: { graph, PageAffix },
 };

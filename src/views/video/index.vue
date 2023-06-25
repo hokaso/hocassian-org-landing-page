@@ -1,16 +1,10 @@
 <template>
   <div class="root">
-    <div class="menu">
-      <a class="btn" href="https://video.hocassian.com" target="_blank">同和視頻矩陣</a>
-      <a class="btn" href="https://material.hocassian.com" target="_blank">同和素材矩陣</a>
-      <a class="btn" href="https://create.hocassian.com" target="_blank">同和創作矩陣</a>
-    </div>
     <div class="banner">
       <video
-        style="width: 100%"
+        style="width: 100%;"
         src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/intro.mp4" autoplay :muted="isMuted" loop></video>
       <div class="banner-content">
-<!--        <h1>同合杉天新媒體矩陣</h1>-->
         <h1>同和新媒體矩陣</h1>
         <p>NMCN·小眾多頻道網絡</p>
       </div>
@@ -37,29 +31,6 @@ export default {
 
 <style lang="less" scoped>
   .root {
-    .menu {
-      position: absolute;
-      right: 3%;
-      top: 36px;
-      z-index: 1000000;
-      background-color: #0000003b;
-      padding: 10px 40px 10px 0;
-      border-radius: 10px;
-      .btn {
-        border-bottom: 2px solid #fff;
-        display: inline-block;
-        color: white;
-        font-weight: 600;
-        font-size: 15px;
-        position: relative;
-        margin-left: 44px;
-        line-height: 28px;
-        -webkit-font-smoothing: antialiased;
-        font-smoothing: antialiased;
-        cursor: pointer;
-        text-decoration: none;
-      }
-    }
     .banner {
       position: relative;
       width: 100%;

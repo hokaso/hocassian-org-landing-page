@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts">
-import PageAffix from '@/componetns/page-affix/index.vue';
+import PageAffix from '@/components/page-affix/index.vue';
 
 export default {
   components: {PageAffix}
