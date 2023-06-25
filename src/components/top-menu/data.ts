@@ -1,7 +1,7 @@
 export const menuData = [
   {
     title: '五大钜阵',
-    iconClass: 'fa-brands fa-slack',
+    iconClass: 'fa-solid fa-circle',
     key: '1',
     children: [
       { title: '同和视频矩阵', key: '1-1', href: 'https://video.hocassian.com' },
@@ -14,7 +14,7 @@ export const menuData = [
   {
     title: '开源共建',
     key: '2',
-    iconClass: 'fa-regular fa-share-from-square',
+    iconClass: 'fa-solid fa-circle',
     children: [
       {
         title: '项目仓库',
@@ -35,7 +35,7 @@ export const menuData = [
   },
   {
     title: '下载',
-    iconClass: 'fa-regular fa-circle-down',
+    iconClass: 'fa-solid fa-circle',
     key: '3',
     children: [
       { title: '同和智创工具箱', key: '3-1', href: '' },

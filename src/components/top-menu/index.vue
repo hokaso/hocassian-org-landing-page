@@ -2,7 +2,7 @@
   <div class="root">
     <a-dropdown v-for="menu in menuData" :key="menu.key">
       <a class="ant-dropdown-link" @click.prevent>
-        <i :class="menu.iconClass" style="color: #0e131b;"></i>
+        <i :class="menu.iconClass" style="color: #000; font-size: 12px; transform: scale(0.5);"></i>
         {{ menu.title }}
         <DownOutlined v-if="menu.children" />
       </a>
@@ -54,6 +54,9 @@ export default defineComponent({
 .ant-dropdown-link {
   color: #000;
   font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 .header-menu {
   font-size: 16px;

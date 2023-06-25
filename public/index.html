@@ -20,6 +20,12 @@
 </html>
 
 <script>
+  (function(){
+    if (typeof window.orientation !== 'undefined') {
+      const fontSize = 16 * window.outerWidth / 375;
+      document.documentElement.style.fontSize = fontSize + 'px';
+    }
+  })();
   // 禁用F12
   window.oncontextmenu = function(e){
     e.preventDefault();

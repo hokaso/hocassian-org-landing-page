@@ -6,7 +6,7 @@
     <section class="container">
       <img src="./image/sider.png" class="sider"/>
       <a-row justify="end" class="first-line">
-        <a-col :span="14" class="card">
+        <a-col :span="18" class="card">
           <div class="left">
             <div class="text">
               <span>多年以來，</span>
@@ -189,7 +189,7 @@ export default {
 
     .first-line {
       .card {
-        padding: 120px 155px 120px 80px;
+        padding: 120px 50px 120px 80px;
         background: #FFFCF5;
         display: flex;
         justify-content: flex-start;
