@@ -4,11 +4,11 @@ export const menuData = [
         iconClass: 'fa-solid fa-circle',
         key: '1',
         children: [
-            {title: '同和視頻矩陣', key: '1-1', href: 'https://video.hocassian.com', iconClass: 'fa-solid fa-square'},
-            {title: '同和素材矩陣', key: '1-2', href: 'https://material.hocassian.com', iconClass: 'fa-solid fa-square'},
-            {title: '同和創作矩陣', key: '1-3', href: 'https://create.hocassian.com', iconClass: 'fa-solid fa-square'},
-            {title: '同和造勢矩陣', key: '1-4', href: 'https://hocassian.cn', iconClass: 'fa-solid fa-square'},
-            {title: '同和分發矩陣', key: '1-5', href: 'https://www.wechatsync.com', iconClass: 'fa-solid fa-square'},
+            {title: '同和視頻矩陣', key: '1-1', href: 'https://video.hocassian.com', iconClass: 'fa-solid fa-film'},
+            {title: '同和素材矩陣', key: '1-2', href: 'https://material.hocassian.com', iconClass: 'fa-solid fa-video'},
+            {title: '同和創作矩陣', key: '1-3', href: 'https://create.hocassian.com', iconClass: 'fa-solid fa-pen'},
+            {title: '同和造勢矩陣', key: '1-4', href: 'https://hocassian.cn', iconClass: 'fa-solid fa-house-flood-water'},
+            {title: '同和分發矩陣', key: '1-5', href: 'https://www.wechatsync.com', iconClass: 'fa-solid fa-network-wired'},
         ],
     },
     {
