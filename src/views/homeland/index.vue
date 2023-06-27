@@ -6,7 +6,7 @@
     <section class="container">
       <img src="./image/sider.png" class="sider"/>
       <a-row justify="end" class="first-line">
-        <a-col :span="18" class="card">
+        <div class="card">
           <div class="left">
             <div class="text">
               <span>多年以來，</span>
@@ -22,7 +22,7 @@
           <div class="right">
             <page-affix/>
           </div>
-        </a-col>
+        </div>
       </a-row>
       <a-row align="middle" class="second-line">
         <a-col :span="18" class="card">
@@ -189,7 +189,12 @@ export default {
 
     .first-line {
       .card {
-        padding: 120px 50px 120px 80px;
+        @media screen and (max-width: 1280px) {
+          padding: 120px 50px 120px 80px;
+          max-width: 74%;
+        }
+        max-width: 58%;
+        padding: 120px 150px 120px 80px;
         background: #FFFCF5;
         display: flex;
         justify-content: flex-start;

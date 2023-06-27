@@ -27,5 +27,8 @@ export default defineComponent({
   z-index: 10;
   width: 100%;
   min-width: 1280px;
+  backdrop-filter: blur(20px);
+  background: #ffffffcc;
+  box-shadow: 0px 3px 12px 1px rgb(119 119 119 / 50%);
 }
 </style>

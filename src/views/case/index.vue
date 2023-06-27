@@ -18,7 +18,7 @@
                 <a :href="item.personWebLink || item.friendUrl" target="_blank">
                   <a-tooltip placement="bottom">
                     <template #title>
-                      <span>{{ item.friendInfo || item.personWebInfo }}}</span>
+                      <span>{{ item.friendInfo || item.personWebInfo }}</span>
                     </template>
                     <img
                       :src="item.friendPic || item.personWebPic"
