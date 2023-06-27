@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <a-dropdown v-for="menu in menuData" :key="menu.key" trigger="click">
+    <a-dropdown v-for="menu in menuData" :key="menu.key">
       <a class="ant-dropdown-link" @click.prevent>
         <i
           :class="menu.iconClass"
@@ -61,7 +61,7 @@
                   <a-menu-item
                     v-for="sub in item.children"
                     :key="sub.key"
-                    style="fontsize: 16px"
+                    style="fontSize: 16px"
                   >
                     <a :href="sub.href" target="_blank" class="inline-flex">
                       <i
