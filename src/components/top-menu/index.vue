@@ -61,7 +61,7 @@
                   <a-menu-item
                     v-for="sub in item.children"
                     :key="sub.key"
-                    style="fontsize: 16px"
+                    style="fontSize: 16px"
                   >
                     <a :href="sub.href" target="_blank" class="inline-flex">
                       <i
