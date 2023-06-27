@@ -1,8 +1,10 @@
 <template>
+  <Header />
   <page-video />
   <background id="background" />
   <network-status id="network-status" />
   <homeland id="our-mission" />
+  <software-download id="software-download" />
   <case id="case" />
   <cooperation id="cooperation" />
   <about id="about" />
@@ -15,6 +17,7 @@
 </template>
 
 <script lang="ts">
+import Header from '@/components/layout/header/index.vue';
 import PageVideo from '../video/index.vue';
 import Background from '../background/index.vue';
 import NetworkStatus from '../network-status/index.vue';
@@ -22,8 +25,9 @@ import Homeland from '../homeland/index.vue';
 import Case from '../case/index.vue';
 import Cooperation from '../cooperation/index.vue';
 import About from '../about/index.vue';
+import SoftwareDownload from '../software-download/index.vue';
 export default {
-  components: { PageVideo, Background, NetworkStatus, Homeland, Case, Cooperation, About },
+  components: { Header, PageVideo, Background, NetworkStatus, Homeland, Case, Cooperation, About, SoftwareDownload },
   setup() {
     return {
 

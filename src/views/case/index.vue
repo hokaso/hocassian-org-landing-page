@@ -16,11 +16,16 @@
                 class="avatar"
               >
                 <a :href="item.personWebLink || item.friendUrl" target="_blank">
-                  <img
-                    :src="item.friendPic || item.personWebPic"
-                    alt="头像"
-                    class="img"
-                  />
+                  <a-tooltip placement="bottom">
+                    <template #title>
+                      <span>{{ item.friendInfo || item.personWebInfo }}</span>
+                    </template>
+                    <img
+                      :src="item.friendPic || item.personWebPic"
+                      alt="头像"
+                      class="img"
+                    />
+                  </a-tooltip>
                   <p class="name">{{ item.friendName || item.personWebName }}</p>
                 </a>
               </div>
@@ -35,7 +40,7 @@
 
 <script lang="ts">
 import { onMounted, reactive, toRefs } from 'vue';
-import PageAffix from '@/componetns/page-affix/index.vue';
+import PageAffix from '@/components/page-affix/index.vue';
 import {
   fetchFriendColumn,
   fetchFriendPlatform,
@@ -105,7 +110,7 @@ export default {
 @title: #585858;
 
 .header {
-  background: url('./headerbg.jpg');
+  background: url('./image/headerbg.jpg');
   color: white;
   text-shadow: 0 3px 4px #00000040;
   font-size: 4rem;
