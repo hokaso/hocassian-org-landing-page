@@ -45,7 +45,7 @@ export const menuData = [
         fontSize: 12,
         key: '3',
         children: [
-            {title: '同和智創工具箱', key: '3-1', href: '#software-download', iconClass: 'fa-solid fa-wrench', target: 'anchor', fontSize: 30},
+            {title: '同和智創工具箱', key: '3-1', href: 'software-download', iconClass: 'fa-solid fa-wrench', target: 'anchor', fontSize: 30},
             {title: 'AIGC生產流水綫', key: '3-2', href: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/技术赋能创作：如何通过AIGC搭建新媒体信息流生产流水线.pdf', iconClass: 'fa-regular fa-paper-plane', fontSize: 30},
             {title: '同和新媒體矩陣·詳細介紹', key: '3-3', href: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同和新媒体矩阵·详细介绍.pdf', iconClass: 'fa-solid fa-circle-info', fontSize: 30},
             {title: '同合杉天·公司介紹', key: '3-4', href: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合杉天·智能创作能力介绍手册.pdf', iconClass: 'fa-regular fa-building', fontSize: 30},
