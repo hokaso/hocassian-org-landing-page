@@ -17,7 +17,7 @@
                 </a>
                 <a-row v-else align="middle">
                   <i :class="item.iconClass" style="color: #2a2a2aa3; font-size: 12px; transform: scale(0.5);"></i>
-                  <a-anchor-link :href="item.href" :title="item.title" style="margin-left: 4px"/>
+                  <a-anchor-link :href="item.href" :title="item.title" style="margin-left: 4px; line-height: inherit"/>
                 </a-row>
               </a-menu-item>
               <div v-else>
