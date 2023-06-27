@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <a-dropdown v-for="menu in menuData" :key="menu.key" trigger="click">
+    <a-dropdown v-for="menu in menuData" :key="menu.key">
       <a class="ant-dropdown-link" @click.prevent>
         <i
           :class="menu.iconClass"
