@@ -65,7 +65,7 @@
                     :key="sub.key"
                     style="fontSize: 16px"
                   >
-                    <a :href="sub.href" target="_blank" class="inline-flex-middle" @click.prevent>
+                    <a :href="sub.href" target="_blank" class="inline-flex-middle">
                       <i
                         :class="sub.iconClass"
                         :style="{

@@ -26,7 +26,7 @@ export const menuData = [
                 children: [
                     {title: '同和新媒體矩陣', key: '2-1-1', href: 'https://github.com/hokaso/hocassian-media-matrix', iconClass: 'fa-solid fa-snowflake', fontSize: 30},
                     {title: '可視化人脈圖譜', key: '2-1-2', href: 'https://github.com/hokaso/hocassian-people-neo4j', iconClass: 'fa-regular fa-user', fontSize: 30},
-                    {title: '矩陣官網', key: '2-1-3', href: 'https://github.com/hokaso/hocassian-org-landing-page', iconClass: 'fa-regular fa-file', fontSize: 30},
+                    {title: '矩陣官網', key: '2-1-3', href: 'https://github.com/hokaso/hocassian-org-landing-page', iconClass: 'fa-regular fa-star', fontSize: 30},
                     {title: '視頻處理小工具', key: '2-1-4', href: 'https://github.com/hokaso/auto_clip/releases/tag/auto_cut-hks-2022.11.07', iconClass: 'fa-regular fa-file', fontSize: 30},
                 ],
             },
