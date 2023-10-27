@@ -95,7 +95,10 @@ export default defineComponent({
       {img: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合智创工具箱/工具箱主界面06.webp'},
     ];
     const hrefList = [
-      {label: '使用教程', href: 'https://hocassian.feishu.cn/docx/XIhfdg8bRotRaExgb8NcTCrbnPg'},
+      {
+        label: '使用教程',
+        href: 'https://hocassian.feishu.cn/docx/XIhfdg8bRotRaExgb8NcTCrbnPg',
+      },
       {
         label: 'Mac端"已損壞，無法打開"如何解決？',
         href: 'https://hocassian.cn/archives/tech/11134',
