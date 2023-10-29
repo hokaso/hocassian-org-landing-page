@@ -43,10 +43,14 @@
               </button>
             </div>
           </div>
+        
           <div class="href-box">
             <div v-for="a in hrefList" :key="a.href" @click="openLink(a.href)">
               {{ a.label }}
             </div>
+          </div>
+          <div class="invite-code" @click="copyInviteCode">
+            邀请码:gitruck
           </div>
           <div class="tips">
             Tips：在使用中若出現未知問題（如閃退、頻閃、黑屏、無法聯網等），請選擇「以管理員身份運行」，若還是無法解決，可下載快照版替代使用（部分機型不支持穩定版架構）；注意，快照版的啓動時間可能較長。
@@ -60,6 +64,8 @@
 <script lang="ts">
 import PageAffix from '@/components/page-affix/index.vue';
 import {defineComponent} from 'vue';
+import { message } from 'ant-design-vue';
+
 
 export default defineComponent({
   components: {PageAffix},
@@ -109,6 +115,16 @@ export default defineComponent({
       window.open(link);
     };
 
+    const copyInviteCode = async() => {
+      try {
+        await navigator.clipboard.writeText("gitruck");
+        message.success('复制成功');
+      } catch (err) {
+        console.error("Error copying text: ", err);
+    }
+
+    }
+
     const handleDownload = (link: string) => {
       window.open(link);
     }
@@ -118,6 +134,7 @@ export default defineComponent({
       openLink,
       hrefList,
       handleDownload,
+      copyInviteCode
     };
   },
 });
@@ -200,7 +217,7 @@ export default defineComponent({
     flex-direction: column;
     gap: 16px;
     font-size: 18px;
-    margin-bottom: 32px;
+    margin-bottom: 14px;
 
     & > div {
       color: #fff;
@@ -253,5 +270,19 @@ export default defineComponent({
       background: #f3f3f3;
     }
   }
+}
+.invite-code{
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  color:#a96b72;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 </style>
