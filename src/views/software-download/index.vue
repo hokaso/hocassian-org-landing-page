@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="invite-code" @click="copyInviteCode">
-            邀请码:gitruck
+            &nbsp邀請碼：gitruck（點我複製）
           </div>
           <div class="tips">
             Tips：在使用中若出現未知問題（如閃退、頻閃、黑屏、無法聯網等），請選擇「以管理員身份運行」，若還是無法解決，可下載快照版替代使用（部分機型不支持穩定版架構）；注意，快照版的啓動時間可能較長。
@@ -272,16 +272,16 @@ export default defineComponent({
   }
 }
 .invite-code{
-  width: 130px;
-  height: 40px;
+  width: 220px;
+  height: 32px;
   border-radius: 5px;
   background-color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   color:#a96b72;
-  line-height: 40px;
+  line-height: 32px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 26px;
   cursor: pointer;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
