@@ -60,6 +60,8 @@ export default {
           color: #ffffff;
           text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.64);
           letter-spacing: 16px;
+          padding-left: 10px;
+          margin-bottom: 0.3em;
         }
         & > p {
           text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.64);
