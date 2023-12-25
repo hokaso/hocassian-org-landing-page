@@ -51,6 +51,9 @@ export default {
         transform: translate(-50%, -50%);
         z-index: 1;
         text-align: center;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
         & > h1 {
           font-size: 40px;
           font-weight: 500;
@@ -69,8 +72,8 @@ export default {
         & > .products {
           display: grid;
           grid-template-columns: 1fr 1fr;
+          place-content: center;
           gap: 16px;
-          justify-content: center;
           & > a:hover {
             background: rgba(0, 0, 0, 0.64);
           }
@@ -90,12 +93,12 @@ export default {
             & > h2 {
               margin: 0;
               color: white;
-              font-size: 20px;
+              font-size: 16px;
             }
             & > p {
               line-height: 1;
-              margin-bottom: 10px;
-              font-size: 14px;
+              margin-bottom: 8px;
+              font-size: 12px;
             }
           }
         }
