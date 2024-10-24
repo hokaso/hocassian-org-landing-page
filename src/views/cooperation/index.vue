@@ -24,7 +24,7 @@
         <div class="disclaimers">
           <h1>开源共建</h1>
           <p>
-            我們將「同和新媒體矩陣」架構代碼全部開源，旨在推動各類中小型主體摒棄技術壁壘，聚焦於創造本身，通過最少量的信息輸入與極低的學習成本和操作門檻，快速構建自定義DIT工作流+AIGC生產流水綫，實現矩陣化輸出内容，以創造最大化的輿論價值；如果您是開發者，可以直接前往<a href="https://github.com/hokaso/hocassian-media-matrix" target="_blank">此處</a>，根據文檔指引搭建屬於自己的新媒體矩陣，並且邀請身邊的優質創作者入駐；若期望快速冷啟動部署與敏捷開發，您還可以<a href="https://wenjuan.feishu.cn/m?t=s4O7goGI2gti-foyg" target="_blank">聯係</a>我們採購相關的技術支持。
+            我們將「同合杉天新媒体矩阵」架構代碼全部開源，旨在推動各類中小型主體摒棄技術壁壘，聚焦於創造本身，通過最少量的信息輸入與極低的學習成本和操作門檻，快速構建自定義DIT工作流+AIGC生產流水綫，實現矩陣化輸出内容，以創造最大化的輿論價值；如果您是開發者，可以直接前往<a href="https://github.com/hokaso/hocassian-media-matrix" target="_blank">此處</a>，根據文檔指引搭建屬於自己的新媒體矩陣，並且邀請身邊的優質創作者入駐；若期望快速冷啟動部署與敏捷開發，您還可以<a href="https://wenjuan.feishu.cn/m?t=s4O7goGI2gti-foyg" target="_blank">聯係</a>我們採購相關的技術支持。
           </p>
         </div>
       </div>

@@ -10,9 +10,13 @@
   <about id="about" />
   <div class="footer" id="footer">
     <p>
-      Copyright@ 2017-{{ new Date().getFullYear() }} 同和新媒體矩陣·版權所有
+      Copyright@ 2017-{{ new Date().getFullYear() }} 同合杉天新媒体矩阵·版權所有
     </p>
-    <a href="https://beian.miit.gov.cn/">粤ICP备2022093510号-1</a>
+<!-- migotimes.com -3 -->
+<!-- hocassian.com -2 -->
+<!-- ai-mcn.tv -5 -->
+<!-- ai-mcn.video -4 -->
+    <a href="https://beian.miit.gov.cn/">粤ICP备2022093510号-2</a>
   </div>
 </template>
 

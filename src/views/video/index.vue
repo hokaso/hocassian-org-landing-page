@@ -5,7 +5,7 @@
         style="width: 100%;"
         src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/intro.mp4" autoplay :muted="isMuted" loop></video>
       <div class="banner-content">
-        <h1>同和新媒體矩陣</h1>
+        <h1>同合杉天新媒体矩阵</h1>
         <p>NMCN·小眾多頻道網絡</p>
         <div class="products">
           <a href="#software-download" rel="noopener noreferrer">
