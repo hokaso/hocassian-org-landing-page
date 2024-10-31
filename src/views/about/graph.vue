@@ -120,19 +120,42 @@ export default {
     this.getList();
   },
   async mounted() {
+    // 当组件挂载完成后监听window的滚动事件
+    window.addEventListener('scroll', this.handleScroll);
     await this.getMap();
     // 基于准备好的dom，初始化echarts实例
     let echarts = require('echarts')
     myChart = echarts.init(document.getElementById('main'));
-    this.myEcharts();
+    // this.myEcharts();
+  },
+  beforeDestroy() {
+    // 当组件销毁时移除滚动事件监听，避免内存泄漏
+    window.removeEventListener('scroll', this.handleScroll);
   },
   methods: {
+    handleScroll() {
+      // 获取滚动的垂直高度
+      const scrollPosition = window.scrollY;
+
+      // 定义阈值，例如滚动到500px时触发事件
+      const scrollThreshold = 12000;
+
+      // console.log(scrollPosition)
+
+      // 判断滚动高度是否超过阈值
+      if (scrollPosition >= scrollThreshold) {
+        this.myEcharts();
+
+        // 一旦执行后，你可以选择移除滚动监听器，避免重复触发
+        window.removeEventListener('scroll', this.handleScroll);
+      }
+    },
     picShow(pic) {
       this.answerPicImageUrl = this.person_pic_url + pic
     },
     myEcharts() {
       const that = this;
-      myChart.showLoading();
+      // myChart.showLoading();
 
       this.graph.nodes.forEach(function (node) {
         node.label = {
@@ -247,8 +270,10 @@ export default {
           }
         },
         legend: [],
-        animationDuration: 150,
-        animationEasingUpdate: 'quinticInOut',
+        animation: false,
+        animationThreshold: 10,
+        // animationDuration: 150,
+        // animationEasingUpdate: 'linear',
         series: [
           {
             name: '',
@@ -269,7 +294,6 @@ export default {
               show: true,
             },
             draggable: true,
-
             labelLayout: {
               hideOverlap: false
             },
@@ -287,10 +311,10 @@ export default {
           }
         ]
       };
-      myChart.clear();
+      // myChart.clear();
       option && myChart.setOption(option, true);
       // console.log(option)
-      myChart.hideLoading();
+      // myChart.hideLoading();
     },
     getList() {
       this.loading = true;

@@ -15,6 +15,10 @@
             <h2>autocut.video</h2>
             <p>自动剪辑神器</p>
           </a>
+          <a href="https://www.pixclip.tech" target="_blank" rel="noopener noreferrer">
+            <h2>PixClip</h2>
+            <p>直播切片工具</p>
+          </a>
         </div>
       </div>
       <div class="banner-footer">
@@ -72,8 +76,8 @@ export default {
           letter-spacing: 8px;
         }
         & > .products {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
+          display: flex;
+          //grid-template-columns: 1fr 1fr;
           place-content: center;
           gap: 16px;
           & > a:hover {
@@ -92,6 +96,7 @@ export default {
             box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
             transition: background 0.3s;
             backdrop-filter: blur(8px);
+            width: 150px;
             & > h2 {
               margin: 0;
               color: white;
