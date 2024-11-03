@@ -10,7 +10,7 @@
   <about id="about" />
   <div class="footer" id="footer">
     <p>
-      Copyright@ 2017-{{ new Date().getFullYear() }} 同合杉天新媒体矩阵·版權所有
+      Copyright@ 2017-{{ new Date().getFullYear() }} 同合杉天新媒体矩阵·版权所有
     </p>
 <!-- migotimes.com -3 -->
 <!-- hocassian.com -2 -->

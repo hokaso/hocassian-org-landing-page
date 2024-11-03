@@ -58,9 +58,9 @@ export default {
   setup() {
     const state = reactive({
       caseData: [
-        { title: '「小眾 = 在細分領域追求極致」', list: [''] },
-        { title: '「小眾 ≠ 缺乏魅力」', list: [''] },
-        { title: '「小眾的光芒不一定最耀眼，但一定是最溫暖的」', list: [''] },
+        { title: '「小众 = 在细分领域追求极致」', list: [''] },
+        { title: '「小众 ≠ 缺乏魅力」', list: [''] },
+        { title: '「小众的光芒不一定最耀眼，但一定是最温暖的」', list: [''] },
       ],
     });
 

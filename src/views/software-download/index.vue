@@ -11,9 +11,9 @@
           </div>
         </a-carousel>
         <div class="info">
-          <div class="title">同合智創工具箱</div>
+          <div class="title">同合智创工具箱</div>
           <p class="intro">
-            同合智創工具箱是您新媒體運營的得力助手，憑藉其多樣的自動化功能，助您輕鬆應對各類視頻內容的智能剪輯需求，從而實現高效、專業的視頻製作。
+            同合智创工具箱是您新媒体运营的得力助手，凭借其多样的自动化功能，助您轻松应对各类视频内容的智能剪辑需求，从而实现高效、专业的视频制作。
           </p>
           <div class="download-box">
             <div v-for="(obj, key) in downloadList" :key="key" class="flex">
@@ -50,10 +50,10 @@
             </div>
           </div>
           <div class="invite-code" @click="copyInviteCode">
-            &nbsp邀請碼：gitruck（點我複製）
+            &nbsp邀请码：gitruck（点我复制）
           </div>
           <div class="tips">
-            Tips：在使用中若出現未知問題（如閃退、頻閃、黑屏、無法聯網等），請選擇「以管理員身份運行」，若還是無法解決，可下載快照版替代使用（部分機型不支持穩定版架構）；注意，快照版的啓動時間可能較長。
+            Tips：在使用中若出现未知问题（如闪退、频闪、黑屏、无法联网等），请选择「以管理员身份运行」，若还是无法解决，可下载快照版替代使用（部分机型不支持稳定版架构）；注意，快照版的启动时间可能较长。
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ export default defineComponent({
     const downloadList = {
       windows: [
         {
-          label: 'Win 穩定版',
+          label: 'Win 稳定版',
           link: 'https://ops.hocassian.com:9000/prod-api/profile/web/broadcast/exe/gitruck_broadcast_win_stable.zip',
         },
         {
@@ -83,7 +83,7 @@ export default defineComponent({
       ],
       apple: [
         {
-          label: 'Mac 穩定版',
+          label: 'Mac 稳定版',
           link: 'https://ops.hocassian.com:9000/prod-api/profile/web/broadcast/exe/gitruck_broadcast_mac_stable.zip',
         },
         {
@@ -106,7 +106,7 @@ export default defineComponent({
         href: 'https://hocassian.feishu.cn/docx/XIhfdg8bRotRaExgb8NcTCrbnPg',
       },
       {
-        label: 'Mac端"已損壞，無法打開"如何解決？',
+        label: 'Mac端"已损坏，无法打开"如何解决？',
         href: 'https://hocassian.cn/archives/tech/11134',
       },
     ];

@@ -2,11 +2,11 @@
   <div class="root">
     <div class="banner">
       <video
-        style="width: 100%;"
-        src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/intro.mp4" autoplay :muted="isMuted" loop></video>
+          style="width: 100%;"
+          src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/intro.mp4" autoplay :muted="isMuted" loop></video>
       <div class="banner-content">
         <h1>同合杉天新媒体矩阵</h1>
-        <p>NMCN·小眾多頻道網絡</p>
+        <p>NMCN·小众多频道网络</p>
         <div class="products">
           <a href="#software-download" rel="noopener noreferrer">
             <h2>同合智创工具箱</h2>
