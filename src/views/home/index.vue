@@ -16,7 +16,7 @@
 <!-- hocassian.com -2 -->
 <!-- ai-mcn.tv -5 -->
 <!-- ai-mcn.video -4 -->
-    <a href="https://beian.miit.gov.cn/">粤ICP备2022093510号-2</a>
+    <a href="https://beian.miit.gov.cn/">粤ICP备2022093510号</a>
   </div>
 </template>
 
