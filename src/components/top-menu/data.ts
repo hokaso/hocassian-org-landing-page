@@ -1,5 +1,15 @@
 export const menuData = [
     {
+        title: 'AI能力概覽',
+        key: '0',
+        iconClass: 'fa-solid fa-circle',
+        fontSize: 12,
+        children: [
+            {title: '能力一覽', key: '0-1', href: 'https://hocassian.feishu.cn/wiki/U1GUw6h6XiGEc8kOQCDceCbnngr', iconClass: 'fa fa-lightbulb-o', fontSize: 30},
+            {title: '能力統計', key: '0-2', href: 'https://hocassian.feishu.cn/wiki/U1GUw6h6XiGEc8kOQCDceCbnngr?table=blkN6WRnZF03NQff', iconClass: 'fa fa-database', fontSize: 30},
+        ],
+    },
+    {
         title: '五大矩陣',
         iconClass: 'fa-solid fa-circle',
         fontSize: 12,
