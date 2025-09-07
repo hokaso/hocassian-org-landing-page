@@ -4,13 +4,14 @@
   <background id="background" />
   <network-status id="network-status" />
   <homeland id="our-mission" />
-  <software-download id="software-download" />
+<!--  <software-download id="software-download" />-->
   <case id="case" />
   <cooperation id="cooperation" />
   <about id="about" />
   <div class="footer" id="footer">
     <p>
-      Copyright@ 2017-{{ new Date().getFullYear() }} 同和新媒體矩陣·版權所有
+      Copyright@ 2017-{{ new Date().getFullYear() }}
+      同和新媒體矩陣·版權所有
     </p>
     <a href="https://beian.miit.gov.cn/">粤ICP备2022093510号</a>
   </div>

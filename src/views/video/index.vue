@@ -3,14 +3,14 @@
     <div class="banner">
       <video
         style="width: 100%;"
-        src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/intro.mp4" autoplay :muted="isMuted" loop></video>
+        :src="publicAssetsUrl() + 'intro.mp4'" autoplay :muted="isMuted" loop></video>
       <div class="banner-content">
         <h1>同和新媒體矩陣</h1>
         <p>NMCN·小眾多頻道網絡</p>
         <div class="products">
-          <a href="#software-download" rel="noopener noreferrer">
-            <h2>同合智创工具箱</h2>
-          </a>
+<!--          <a href="#software-download" rel="noopener noreferrer">-->
+<!--            <h2>同合智创工具箱</h2>-->
+<!--          </a>-->
           <a href="https://aimix.pro" target="_blank" rel="noopener noreferrer">
             <h2>aimix.pro</h2>
             <p>全域内容营销专家</p>
@@ -23,10 +23,10 @@
             <h2>PixClip</h2>
             <p>直播切片工具</p>
           </a>
-          <a href="https://cloud.ai-mcn.tv" target="_blank" rel="noopener noreferrer">
-            <h2>同合云</h2>
-            <p>智能创作综合云引擎</p>
-          </a>
+<!--          <a href="https://cloud.ai-mcn.tv" target="_blank" rel="noopener noreferrer">-->
+<!--            <h2>同合云</h2>-->
+<!--            <p>智能创作综合云引擎</p>-->
+<!--          </a>-->
         </div>
       </div>
       <div class="banner-footer">
@@ -38,7 +38,13 @@
 
 <script lang="ts">
 import { reactive, toRefs } from 'vue';
+import {publicAssetsUrl} from "@/utils/filePath";
 export default {
+  methods: {
+    publicAssetsUrl() {
+      return publicAssetsUrl
+    }
+  },
   setup() {
     const state = reactive({
       isMuted: true

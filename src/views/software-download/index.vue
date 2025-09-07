@@ -65,6 +65,7 @@
 import PageAffix from '@/components/page-affix/index.vue';
 import {defineComponent} from 'vue';
 import { message } from 'ant-design-vue';
+import {publicAssetsUrl} from "@/utils/filePath";
 
 
 export default defineComponent({
@@ -74,31 +75,31 @@ export default defineComponent({
       windows: [
         {
           label: 'Win 穩定版',
-          link: 'https://ops.hocassian.com:9000/prod-api/profile/web/broadcast/exe/gitruck_broadcast_win_stable.zip',
+          link: publicAssetsUrl + 'broadcast/exe/gitruck_broadcast_win_stable.zip',
         },
         {
           label: 'Win 快照版',
-          link: 'https://ops.hocassian.com:9000/prod-api/profile/web/broadcast/exe/gitruck_broadcast_win_release.zip',
+          link: publicAssetsUrl + 'broadcast/exe/gitruck_broadcast_win_release.zip',
         },
       ],
       apple: [
         {
           label: 'Mac 穩定版',
-          link: 'https://ops.hocassian.com:9000/prod-api/profile/web/broadcast/exe/gitruck_broadcast_mac_stable.zip',
+          link: publicAssetsUrl + 'broadcast/exe/gitruck_broadcast_mac_stable.zip',
         },
         {
           label: 'Mac 快照版',
-          link: 'https://ops.hocassian.com:9000/prod-api/profile/web/broadcast/exe/gitruck_broadcast_mac_release.zip',
+          link: publicAssetsUrl + 'broadcast/exe/gitruck_broadcast_mac_release.zip',
         },
       ],
     };
     const carouselList = [
-      {img: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合智创工具箱/工具箱主界面01.webp'},
-      {img: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合智创工具箱/工具箱主界面02.webp'},
-      {img: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合智创工具箱/工具箱主界面03.webp'},
-      {img: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合智创工具箱/工具箱主界面04.webp'},
-      {img: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合智创工具箱/工具箱主界面05.webp'},
-      {img: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合智创工具箱/工具箱主界面06.webp'},
+      {img: publicAssetsUrl + '同合智创工具箱/工具箱主界面01.webp'},
+      {img: publicAssetsUrl + '同合智创工具箱/工具箱主界面02.webp'},
+      {img: publicAssetsUrl + '同合智创工具箱/工具箱主界面03.webp'},
+      {img: publicAssetsUrl + '同合智创工具箱/工具箱主界面04.webp'},
+      {img: publicAssetsUrl + '同合智创工具箱/工具箱主界面05.webp'},
+      {img: publicAssetsUrl + '同合智创工具箱/工具箱主界面06.webp'},
     ];
     const hrefList = [
       {

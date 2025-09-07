@@ -11,6 +11,7 @@ import {
   fetchFriendAuth,
   fetchFriendMap
 } from '@/service/api';
+import {membersFileUrl} from "@/utils/filePath";
 
 let myChart = undefined
 
@@ -74,7 +75,7 @@ export default {
       personWebPlatformTemp: undefined,
       personWebFieldTemp: undefined,
       // 路径
-      person_pic_url: "image://" + process.env.VUE_APP_SERVICE_URL + process.env.VUE_APP_BASE_API + "/profile/video_matrix/",
+      person_pic_url: "image://" + membersFileUrl,
       // 图片预览框
       picVisible: false,
       // 拼接

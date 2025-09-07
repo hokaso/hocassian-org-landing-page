@@ -5,10 +5,10 @@
 https://www.figma.com/file/iIgRhcdlU1mU6D33JFACG4/nmcn---%E6%AD%A3%E5%BC%8F%E7%89%88---%E5%82%99%E4%BB%BD?node-id=0%3A1
 
 官网视频：
-http://ops.hocassian.com:9000/prod-api/profile/video_matrix/intro.mp4
+https://infra.ai-mcn.tv:9002/prod-api/profile/nmcn/video_matrix/public_assets/intro.mp4
 
 图片拼接：
-http://ops.hocassian.com:9000/prod-api/profile/video_matrix/ + friendPic
+https://infra.ai-mcn.tv:9002/prod-api/profile/nmcn/video_matrix/members/ + friendPic
 
 ### 需要用到的API
 

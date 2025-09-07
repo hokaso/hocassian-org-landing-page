@@ -44,7 +44,7 @@ export default {
 @font: #5c5c5c;
 
 .header {
-  background: url("https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/cooperation_background.webp");
+  background: url("https://infra.ai-mcn.tv:9001/prod-api/profile/nmcn/video_matrix/public_assets/cooperation_background.webp");
   color: white;
   text-shadow: 0 3px 4px #00000040;
   font-size: 4rem;

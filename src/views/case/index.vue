@@ -47,11 +47,9 @@ import {
   fetchFriendAuth,
 } from '@/service/api';
 import shuffle from 'shuffle.ts';
+import {membersFileUrl} from "@/utils/filePath";
 
-const picUrl =
-  process.env.VUE_APP_SERVICE_URL +
-  process.env.VUE_APP_BASE_API +
-  '/profile/video_matrix';
+const picUrl = membersFileUrl;
 
 export default {
   components: { PageAffix },
@@ -68,7 +66,7 @@ export default {
       const { rows } = await fetchFriendColumn();
       state.caseData[0].list = shuffle(rows).map((item: any) => ({
         ...item,
-        friendPic: `${picUrl}/${item.friendPic}`,
+        friendPic: `${picUrl}${item.friendPic}`,
       }));
     };
 
@@ -76,7 +74,7 @@ export default {
       const { rows } = await fetchFriendPlatform();
       state.caseData[1].list = shuffle(rows).map((item: any) => ({
         ...item,
-        friendPic: `${picUrl}/${item.friendPic}`,
+        friendPic: `${picUrl}${item.friendPic}`,
       }));
     };
 
@@ -87,7 +85,7 @@ export default {
         return {
           ...item,
           id: item.personWebId,
-          personWebPic: `${picUrl}/${item.personWebPic}`,
+          personWebPic: `${picUrl}${item.personWebPic}`,
         };
       });
     };
@@ -136,14 +134,14 @@ export default {
   padding: 107px;
 }
 .out-container {
-  background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/out_background.webp');
+  background-image: url('https://infra.ai-mcn.tv:9001/prod-api/profile/nmcn/video_matrix/public_assets/out_background.webp');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 100vh;
   max-height: min-content;
   padding: 37px 0;
   .inner-container {
-    background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/inner_background.webp');
+    background-image: url('https://infra.ai-mcn.tv:9001/prod-api/profile/nmcn/video_matrix/public_assets/inner_background.webp');
     background-size: 100% 100%;
     width: 75%;
     margin: 0 auto;

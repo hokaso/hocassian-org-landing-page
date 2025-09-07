@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/header_background.webp" class="headerImg" />
+    <img :src="publicAssetsUrl() + 'header_background.webp'" class="headerImg" />
     <section class="container">
       <a-row align="middle" class="main">
         <a-col class="affix-block">
@@ -12,7 +12,7 @@
               作爲KOL新青年，我們不應在大環境下失聲。每個人都擁有自己對生活的定義，不必迎合大衆審美，那麽就退出那些設定好的遊戲，另起爐灶。
             </div>
           </div>
-          <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/irregular_2.webp" class="second-img" />
+          <img :src="publicAssetsUrl() + 'irregular_2.webp'" class="second-img" />
           <div class="desc">
             <span>在生物界，</span>與復雜的自然環境一併產生的還有物種的多樣性，正是千千萬萬個生命之間的互相依存，才讓我們的星球有了生機和色彩。而對於擁有精神世界的我們來說，各異的文化、不同的思想、偶然的靈感……在它們的影響與碰撞下，百花齊放的文明誕生了。而世俗勢力企圖減少思想的維度，收束思考的層次，通過沒有硝煙的「和平演變」使拖尾效應不斷弱化，其結果就是——我們的情感逐漸失調，「精神溫室效應」不斷加劇，忘記了自己於世的使命；我們開始慢慢難以被打動，難以傾聽那共鳴之聲，我們的精神逐漸變得穩定、遲鈍、不再起伏……
           </div>
@@ -29,8 +29,14 @@
 
 <script lang="ts">
 import PageAffix from '@/components/page-affix/index.vue';
+import {publicAssetsUrl} from "@/utils/filePath";
 export default {
-  components: { PageAffix }
+  components: { PageAffix },
+  methods: {
+    publicAssetsUrl() {
+      return publicAssetsUrl
+    }
+  }
 }
 </script>
 
@@ -49,7 +55,7 @@ export default {
     font-weight: 600;
   }
   .container {
-    background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/paper.webp');
+    background-image: url('https://infra.ai-mcn.tv:9001/prod-api/profile/nmcn/video_matrix/public_assets/paper.webp');
     background-size: cover;
     margin-top: -10%;
     padding-top: 5%;
@@ -64,7 +70,7 @@ export default {
         margin-right: 120px;
       }
       .first {
-        background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/irregular_1.webp');
+        background-image: url('https://infra.ai-mcn.tv:9001/prod-api/profile/nmcn/video_matrix/public_assets/irregular_1.webp');
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
@@ -147,7 +153,7 @@ export default {
     }
   }
   .footerImg {
-    background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/grass.webp');
+    background-image: url('https://infra.ai-mcn.tv:9001/prod-api/profile/nmcn/video_matrix/public_assets/grass.webp');
     background-size: contain;
     background-repeat: repeat-x;
     height: 56px;
