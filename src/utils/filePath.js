@@ -1,4 +1,4 @@
-export const baseUrl = process.env.VUE_APP_BASE_API;
+export const baseUrl = "https://infra.ai-mcn.tv:9002/prod-api";
 const baseFileUrl = baseUrl + "/profile";
 export const matFileUrl = baseFileUrl + "/nmcn/material";
 export const videoFileUrl = baseFileUrl + '/nmcn/video_matrix/videos/';
