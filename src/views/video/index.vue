@@ -15,13 +15,13 @@
             <h2>aimix.pro</h2>
             <p>全域内容营销专家</p>
           </a>
+          <a href="https://cloud.ai-mcn.tv" target="_blank" rel="noopener noreferrer">
+            <h2>同合云</h2>
+            <p>智能创作API集成平台</p>
+          </a>
           <a href="https://autocut.video" target="_blank" rel="noopener noreferrer">
             <h2>autocut.video</h2>
             <p>自动剪辑神器</p>
-          </a>
-          <a href="https://www.pixclip.tech" target="_blank" rel="noopener noreferrer">
-            <h2>PixClip</h2>
-            <p>直播切片工具</p>
           </a>
 <!--          <a href="https://cloud.ai-mcn.tv" target="_blank" rel="noopener noreferrer">-->
 <!--            <h2>同合云</h2>-->
