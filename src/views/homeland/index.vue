@@ -13,10 +13,10 @@
               「同合杉天新媒体矩阵」致力于帮助亚文化小众群体找寻自身价值，不断扶持天才级创作者输出优质内容，带动相关领域持续细化，从中汲取养分使受众圈焕发活力，成长为拥有自身扩张力的模范群体。无论是音乐、绘画、视频亦或其他文化形式，我们皆有成功案例证明这种去中心化的运营模式能够为用户带来正面的精神影响力，渐渐让他们收获彼此的认同和世界的善意，有动力寻找人生的宝物，点燃生命的亮光，最终拥抱美好的人生。
             </div>
             <div class="image-box">
-              <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/1.webp"/>
-              <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/2.webp"/>
-              <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/3.webp"/>
-              <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/4.webp"/>
+              <img src="https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/1.webp"/>
+              <img src="https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/2.webp"/>
+              <img src="https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/3.webp"/>
+              <img src="https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/4.webp"/>
             </div>
           </div>
           <div class="right">
@@ -26,7 +26,7 @@
       </a-row>
       <a-row align="middle" class="second-line">
         <a-col :span="18" class="card">
-          <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/family.webp"/>
+          <img src="https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/family.webp"/>
           <div class="text">
             <span>NMCN</span>
             （Niche Multi Channel
@@ -34,7 +34,7 @@
           </div>
         </a-col>
         <a-col :flex="1">
-          <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/process.webp"/>
+          <img src="https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/process.webp"/>
         </a-col>
       </a-row>
       <a-row justify="end" class="third-line">
@@ -116,22 +116,22 @@ export default {
         title: '同和视频矩阵',
         content: '贮存&展示矩阵成员视频稿件并借此维护其原创性，提升矩阵影响力，防止公共平台监管限流、无故下架、恶意带节奏等信息霸权问题；促进成员相互引流&合作，以组织形式面向广告主，实现共同盈利。'
       },
-      {imageUrl: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/how_to_look.webp'},
-      {imageUrl: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/world.webp'},
-      {imageUrl: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/mischief.webp'},
-      {imageUrl: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/dusk.webp'},
+      {imageUrl: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/how_to_look.webp'},
+      {imageUrl: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/world.webp'},
+      {imageUrl: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/mischief.webp'},
+      {imageUrl: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/dusk.webp'},
       {title: '同和素材矩阵', content: '旨在为创作者提供开源的高质多媒体素材，同时接收创作者的投稿与分享，提高多媒体素材的利用率；前接素材的采集，后接素材的调用与剪辑，为创作者省去查找素材的重复劳动。'},
-      {imageUrl: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/those.webp'},
+      {imageUrl: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/those.webp'},
       {
         title: '同和创意矩阵',
         content: '该矩阵旨在帮助创作者找到相关领域的合作伙伴，提供法务咨询、共享商单、选题悬赏等服务型功能，为内容工作者提供「发现」与「分享」的根据地，迸发创作灵感、提升归属感和个人IP声量。'
       },
-      {imageUrl: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/event.webp'},
+      {imageUrl: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/event.webp'},
       {
         title: '同和造势矩阵',
         content: '流量是舆论的产物，优质内容的扩散离不开计划性和规模化的运营，我们结合互联网技术与社会心理学，触达观众精神极限的同时将信息多元化，以期分类明确、高度集成和精致包装，顺应未来传播潮流。'
       },
-      {imageUrl: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/interview.webp'},
+      {imageUrl: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/interview.webp'},
       {
         title: '同和分发矩阵',
         content: '我们致力于潜心研究媒体平台，并最终独创基于模拟器二次封装的分发手段，且与多家分发软件开发商达成合作，作者可一键将图文或视频一次性同步至多个自媒体平台，真正意义上实现『一次分发，多端同步』。'

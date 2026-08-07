@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/header_background.webp" class="headerImg" />
+    <img src="https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/header_background.webp" class="headerImg" />
     <section class="container">
       <a-row align="middle" class="main">
         <a-col class="affix-block">
@@ -12,7 +12,7 @@
               作为KOL新青年，我们不应在大环境下失声。每个人都拥有自己对生活的定义，不必迎合大众审美，那么就退出那些设定好的游戏，另起炉灶。
             </div>
           </div>
-          <img src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/irregular_2.webp" class="second-img" />
+          <img src="https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/irregular_2.webp" class="second-img" />
           <div class="desc">
             <span>在生物界，</span>与复杂的自然环境一并产生的还有物种的多样性，正是千千万万个生命之间的互相依存，才让我们的星球有了生机和色彩。而对于拥有精神世界的我们来说，各异的文化、不同的思想、偶然的灵感……在它们的影响与碰撞下，百花齐放的文明诞生了。而世俗势力企图减少思想的维度，收束思考的层次，通过没有硝烟的「和平演变」使拖尾效应不断弱化，其结果就是——我们的情感逐渐失调，「精神温室效应」不断加剧，忘记了自己于世的使命；我们开始慢慢难以被打动，难以倾听那共鸣之声，我们的精神逐渐变得稳定、迟钝、不再起伏……
           </div>
@@ -49,7 +49,7 @@ export default {
     font-weight: 600;
   }
   .container {
-    background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/paper.webp');
+    background-image: url('https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/paper.webp');
     background-size: cover;
     margin-top: -10%;
     padding-top: 5%;
@@ -64,7 +64,7 @@ export default {
         margin-right: 120px;
       }
       .first {
-        background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/irregular_1.webp');
+        background-image: url('https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/irregular_1.webp');
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
@@ -147,7 +147,7 @@ export default {
     }
   }
   .footerImg {
-    background-image: url('https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/grass.webp');
+    background-image: url('https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/grass.webp');
     background-size: contain;
     background-repeat: repeat-x;
     height: 56px;

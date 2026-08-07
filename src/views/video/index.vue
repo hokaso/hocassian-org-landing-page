@@ -3,11 +3,15 @@
     <div class="banner">
       <video
           style="width: 100%;"
-          src="https://ops.hocassian.com:9000/prod-api/profile/video_matrix/intro.mp4" autoplay :muted="isMuted" loop></video>
+          src="https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/intro.mp4" autoplay :muted="isMuted" loop></video>
       <div class="banner-content">
         <h1>同合杉天新媒体矩阵</h1>
         <p>NMCN·小众多频道网络</p>
         <div class="products">
+          <a href="https://www.pixclip.tech" target="_blank" rel="noopener noreferrer">
+            <h2>PixClip</h2>
+            <p>直播切片工具</p>
+          </a>
           <a href="https://cloud.ai-mcn.tv" target="_blank" rel="noopener noreferrer">
             <h2>同合云</h2>
             <p>智能创作API集成平台</p>
@@ -16,10 +20,7 @@
             <h2>autocut.video</h2>
             <p>自动剪辑神器</p>
           </a>
-          <a href="https://www.pixclip.tech" target="_blank" rel="noopener noreferrer">
-            <h2>PixClip</h2>
-            <p>直播切片工具</p>
-          </a>
+
 <!--          <a href="https://cloud.ai-mcn.tv" target="_blank" rel="noopener noreferrer">-->
 <!--            <h2>同合云</h2>-->
 <!--            <p>智能创作综合云引擎</p>-->

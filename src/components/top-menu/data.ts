@@ -110,28 +110,28 @@ export const menuData = [
             {
                 title: 'AIGC生产流水线',
                 key: '3-2',
-                href: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/技术赋能创作：如何通过AIGC搭建新媒体信息流生产流水线.pdf',
+                href: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/技术赋能创作：如何通过AIGC搭建新媒体信息流生产流水线.pdf',
                 iconClass: 'fa-regular fa-paper-plane',
                 fontSize: 30
             },
             {
                 title: '同合杉天新媒体矩阵·详细介绍',
                 key: '3-3',
-                href: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同和新媒体矩阵·详细介绍.pdf',
+                href: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/同和新媒体矩阵·详细介绍.pdf',
                 iconClass: 'fa-solid fa-circle-info',
                 fontSize: 30
             },
             {
                 title: '同合杉天·公司介绍',
                 key: '3-4',
-                href: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合杉天·智能创作能力介绍手册.pdf',
+                href: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/同合杉天·智能创作能力介绍手册.pdf',
                 iconClass: 'fa-regular fa-building',
                 fontSize: 30
             },
             {
                 title: '同合杉天·商业计划书',
                 key: '3-5',
-                href: 'https://ops.hocassian.com:9000/prod-api/profile/video_matrix/landing_page/同合杉天·商业计划书.pdf',
+                href: 'https://infra.ai-mcn.tv:9001/prod-api/profile/video_matrix/landing_page/同合杉天·商业计划书.pdf',
                 iconClass: 'fa-regular fa-bookmark',
                 fontSize: 30
             },
